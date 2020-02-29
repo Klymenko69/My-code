@@ -68,6 +68,7 @@ button{
     height: 65px;
     background: #34547A;
     color: #ffffff;
+    border: 0;
 }
 
 .blue-btn-text{
@@ -98,9 +99,8 @@ button{
     padding-bottom: 100px;
 }
 
-.atributs{
+.attributes{
     background: #34547A;
-    width: 100vw;
     height: 250px;
     display: flex;
     align-items: center;
@@ -108,25 +108,25 @@ button{
 
 }
 
-.atributs-block{
+.attributes-block{
     display: flex;
     flex-direction: row;
     padding: 0 49px;
 }
 
-.atributs-block-info{
+.attributes-block-info{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     justify-content: center;
 }
 
-.atributs-block-info-num{
+.attributes-block-info-num{
     font-weight: 500;
     font-size: 21px;
 }
 
-.atributs-block-info-text{
+.attributes-block-info-text{
     font-size: 16px;
     line-height: 26px;
 }
