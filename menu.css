@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: 'Roboto';
+}
+
+.nav{
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
+.nav-logo{
+    width: 96px;
+    height: 60px;
+    display: flex;
+}
+
+.nav-list{
+    font-family: 'Roboto';
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.nav-list-item{
+    display: flex;
+}
+.nav-list-item-link{
+    padding-left: 40px;
+}
+
+.nav-list-item-link-active{
+    color: #34547A;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-content{
+    padding-left: 153px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-content-title{
+    font-size: 48px;
+    font-weight: 500;   
+}
+
+.header-content-text{
+    width: 540px;
+    padding: 60px 0;
+    line-height: 26px;
+}
+
+button{
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    color: #ffffff;
+    border: 0;
+}
+
+.blue-btn-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    justify-content: center;
+}
+
+.aboutMe-title{
+    font-weight: 500;
+    font-size: 32px;
+    padding: 119px 0 50px 0;
+}
+
+.aboutMe-text{
+    width: 540px;
+    text-align: center;
+    line-height: 26px;
+    padding-bottom: 100px;
+}
+
+.attributes{
+    background: #34547A;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+
+}
+
+.attributes-block{
+    display: flex;
+    flex-direction: row;
+    padding: 0 49px;
+}
+
+.attributes-block-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.attributes-block-info-num{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.attributes-block-info-text{
+    font-size: 16px;
+    line-height: 26px;
+}
