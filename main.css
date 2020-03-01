@@ -104,12 +104,12 @@ button{
     align-items: center;
     color:#ffffff;
     justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 .attributes-block{
     display: flex;
-    flex-direction: row;
-    
+
 }
 
 .attributes-block-info{
@@ -225,6 +225,12 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.job-video-pic-code{
+   width:1110px;
+
 }
 
 .job-video-play{
@@ -233,25 +239,43 @@ button{
 }
 
 .post{
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffffff;
-    padding-top: 10px;
+    background: #EEEFF1;
+    padding: 10px;
 }
 
 .post-list{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
+}
+
+.post-list-pic{
+    display: flex;
+}
+
+.post-list-pic-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .post-list-pic-info{
-    max-width: 450px;
-    max-height: 450px;
+    width: 480px;
+    height: 480px;
+    
 }
+
+.post-list-pic-info-icons{
+    display: flex;
+    position: absolute;    
+}
+
 
 .microsoft{
     display: flex;
@@ -259,11 +283,13 @@ button{
     align-items: center;
     padding: 72px 0 100px 0;
     background: #ffffff;
+    flex-flow: row wrap;
 }
 
 .microsoft-block-pic{
     width: 255px;
     height: 120px;
+    
 }
 
 .feedbacks{
@@ -378,8 +404,9 @@ button{
     color: #FFFFFF;
 }
 
-footer-pic{
+.footer-pic{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-around;
+    width: 00px;    
 }
