@@ -232,7 +232,6 @@ button{
 
 .job-video-pic-code{
   max-width: 100%;
-
 }
 
 .job-video-play{
@@ -275,7 +274,7 @@ button{
 
 .post-list-pic-info-icons{
     display: flex;
-    position: absolute;    
+    position: absolute;   
 }
 
 
@@ -410,5 +409,5 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 00px;    
+    width: 200px;    
 }
