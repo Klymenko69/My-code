@@ -58,7 +58,6 @@ body{
 }
 
 .header-content-text{
-    width: 540px;
     padding: 60px 0;
     line-height: 26px;
 }
@@ -93,7 +92,6 @@ button{
 }
 
 .aboutMe-text{
-    width: 540px;
     text-align: center;
     line-height: 26px;
     padding-bottom: 100px;
@@ -105,19 +103,17 @@ button{
     display: flex;
     align-items: center;
     color:#ffffff;
-
+    justify-content: space-around;
 }
 
 .attributes-block{
     display: flex;
     flex-direction: row;
-    padding: 0 49px;
 }
 
 .attributes-block-info{
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
     justify-content: center;
 }
 
@@ -129,4 +125,23 @@ button{
 .attributes-block-info-text{
     font-size: 16px;
     line-height: 26px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.skills-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-info-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
 }
