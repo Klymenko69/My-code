@@ -226,10 +226,12 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 1110px;
+    height: 600px;
 }
 
 .job-video-pic-code{
-   width:1110px;
+  max-width: 100%;
 
 }
 
